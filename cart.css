@@ -1,0 +1,118 @@
+*{ font-family: 'Courier New', Courier, monospace;}
+a{
+  text-decoration: none;
+  text-transform: none;
+
+}
+.div{
+margin-top:100px ;
+display: grid;
+ place-items: center;
+ 
+}
+label
+{
+  display: block;
+  color:rgb(21, 65, 95);
+}
+a{
+  color:rgb(21, 65, 95);
+}
+table{
+border: solid 0px blue;
+padding: 5px;
+border-collapse: collapse;
+width: 50%;
+text-align: start;
+}
+th{
+    border: none;
+    border-bottom: solid 1px;
+    padding: 0px;
+    text-align: start;
+
+}
+tr{
+   border: none;
+    padding:  1px;
+}
+td{
+    border: none;
+    padding: 10px;
+    
+}
+table button{
+    background: none;
+    border: none;
+
+}
+table button img{
+    width: 20px;
+    height: 20px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+.cart{
+    margin-top: 50px;
+}
+.cart::before{
+    content:url('images/icons8-trash-26.png');
+    
+}
+.product{
+    margin-top: 50px;
+}
+.product::before{
+    content:url('images/icons8-barcode-32.png');
+        
+}
+.content
+{
+    height:auto;
+    margin: 040px 0px 50px 0px;
+    border: solid 0px;
+    padding: 20px 0 20px 0;
+    /*box-shadow:5px 0px 05px 5px rgb(240, 240, 240) ;*/
+}
+.display-meias
+{
+  
+  display: inline-block;
+  width: 260px;
+  height: 300px;
+  margin: 10px;
+  border: solid 3px rgba(161, 160, 160, 0.192);
+  padding: 0px;
+  cursor: pointer;
+}
+.display-meias img
+{
+  margin: 4px;
+}
+.display-meias:hover
+{
+  border: solid 3px rgb(21, 65, 95); /*rgba(161, 160, 160, 0.192);*/
+}
+.buttoncart
+{
+  height: 40px;
+  width: 180px;
+  margin-top: 10px;
+  border: solid 2px seagreen;
+  background-color: white;
+  cursor: pointer;
+  padding: 4px;
+}
+.buttoncart:hover{
+  background-color:seagreen;
+  
+  color: white;
+}
+#count{
+  font-size: 20px;
+  text-align: center;
+  width: 50px;
+  height: 40px;
+  border: solid 2px seagreen;
+  -moz-appearance: textfield;
+}
